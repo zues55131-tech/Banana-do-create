@@ -152,13 +152,14 @@ public class TitanTreadmillBE extends GeneratingKineticBlockEntity {
     }
 
     @Override
-    public void setRemoved() {
-        // setRemoved tambem roda ao descarregar o chunk: so solta o tita se o bloco realmente sumiu
+    public void remove() {
+        // remove() roda ao quebrar o bloco ou tirar da estrutura, nao ao descarregar o chunk:
+        // so solta o tita se o bloco realmente sumiu
         if (level != null && !level.isClientSide
                 && !level.getBlockState(worldPosition).is(ModBlocks.TITAN_TREADMILL.get())) {
             release();
         }
-        super.setRemoved();
+        super.remove();
     }
 
     @Override
