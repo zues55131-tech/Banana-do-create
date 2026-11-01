@@ -1,0 +1,46 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "bananacreate:chrome_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_chrome_plate"
+        },
+        {
+          "item": "bananacreate:banana_pulp"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_chrome_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_chrome_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_chrome_plate"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "bananacreate:incomplete_chrome_plate"
+  }
+}

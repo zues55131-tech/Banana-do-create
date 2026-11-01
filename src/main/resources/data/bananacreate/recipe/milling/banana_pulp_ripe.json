@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "bananacreate:banana"
+    }
+  ],
+  "results": [
+    {
+      "id": "bananacreate:banana_pulp",
+      "count": 2
+    }
+  ],
+  "processing_time": 80
+}

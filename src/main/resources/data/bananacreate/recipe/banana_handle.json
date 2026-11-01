@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "bananacreate:banana_planks"
+    }
+  },
+  "result": {
+    "id": "bananacreate:banana_handle",
+    "count": 2
+  }
+}

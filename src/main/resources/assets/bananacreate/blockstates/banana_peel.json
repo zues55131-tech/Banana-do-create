@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "uses=0": {
+      "model": "bananacreate:block/banana_peel"
+    },
+    "uses=1": {
+      "model": "bananacreate:block/banana_peel"
+    },
+    "uses=2": {
+      "model": "bananacreate:block/banana_peel"
+    }
+  }
+}

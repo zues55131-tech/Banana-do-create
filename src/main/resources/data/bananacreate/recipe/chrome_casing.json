@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "PAP",
+    "BCB",
+    "PAP"
+  ],
+  "key": {
+    "P": {
+      "item": "bananacreate:chrome_plate"
+    },
+    "A": {
+      "item": "bananacreate:banana_alloy"
+    },
+    "B": {
+      "item": "bananacreate:banana_cell"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    }
+  },
+  "result": {
+    "id": "bananacreate:chrome_casing",
+    "count": 2
+  }
+}

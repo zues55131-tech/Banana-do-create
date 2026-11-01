@@ -1,0 +1,155 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "bananacreate:chrome_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "bananacreate:gorilla_arms"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_gorilla_arms"
+        },
+        {
+          "item": "bananacreate:chrome_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_gorilla_arms"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_gorilla_arms"
+        },
+        {
+          "item": "bananacreate:chrome_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_gorilla_arms"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_gorilla_arms"
+        },
+        {
+          "item": "create:large_cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_gorilla_arms"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_gorilla_arms"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_gorilla_arms"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_gorilla_arms"
+        },
+        {
+          "item": "minecraft:leather"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_gorilla_arms"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_gorilla_arms"
+        },
+        {
+          "item": "bananacreate:banana_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_gorilla_arms"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_gorilla_arms"
+        },
+        {
+          "item": "bananacreate:banana_cell"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_gorilla_arms"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_gorilla_arms"
+        },
+        {
+          "item": "bananacreate:cosmic_banana"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_gorilla_arms"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_gorilla_arms"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_gorilla_arms"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "bananacreate:incomplete_gorilla_arms"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_sword"
+    },
+    {
+      "item": "bananacreate:blood_vial"
+    },
+    {
+      "item": "bananacreate:blood_vial"
+    },
+    {
+      "item": "bananacreate:blood_vial"
+    },
+    {
+      "item": "bananacreate:banana_cell"
+    },
+    {
+      "item": "bananacreate:golden_banana"
+    }
+  ],
+  "result": {
+    "id": "bananacreate:blood_blade",
+    "count": 1
+  }
+}

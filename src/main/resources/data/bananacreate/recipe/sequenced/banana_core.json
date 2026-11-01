@@ -1,0 +1,78 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_casing"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "bananacreate:banana_core"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_banana_core"
+        },
+        {
+          "item": "bananacreate:banana_cell"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_banana_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_banana_core"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_banana_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_banana_core"
+        },
+        {
+          "item": "bananacreate:red_banana"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_banana_core"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_banana_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_banana_core"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "bananacreate:incomplete_banana_core"
+  }
+}

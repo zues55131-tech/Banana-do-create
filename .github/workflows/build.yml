@@ -22,4 +22,3 @@ jobs:
         with:
           name: bananacreate-jar
           path: build/libs/*.jar
-          

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S",
+    "BCB",
+    "PPP"
+  ],
+  "key": {
+    "S": {
+      "item": "create:shaft"
+    },
+    "B": {
+      "item": "bananacreate:banana_cell"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "P": {
+      "item": "create:brass_sheet"
+    }
+  },
+  "result": {
+    "id": "bananacreate:blood_centrifuge",
+    "count": 1
+  }
+}

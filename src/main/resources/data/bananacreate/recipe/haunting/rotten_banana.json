@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "bananacreate:banana"
+    }
+  ],
+  "results": [
+    {
+      "id": "bananacreate:rotten_banana"
+    }
+  ]
+}

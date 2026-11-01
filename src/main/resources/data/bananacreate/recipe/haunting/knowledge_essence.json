@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "results": [
+    {
+      "id": "bananacreate:knowledge_essence"
+    }
+  ]
+}

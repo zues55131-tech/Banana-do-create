@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "bananacreate:block/chaos_dynamo"
+    },
+    "axis=z": {
+      "model": "bananacreate:block/chaos_dynamo",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "bananacreate:block/chaos_dynamo",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

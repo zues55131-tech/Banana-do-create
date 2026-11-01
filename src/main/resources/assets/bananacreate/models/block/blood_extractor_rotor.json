@@ -1,0 +1,77 @@
+{
+  "textures": {
+    "side": "bananacreate:block/blood_extractor_side",
+    "end": "bananacreate:block/blood_extractor_end",
+    "shaft": "bananacreate:block/shaft_part",
+    "metal": "bananacreate:block/chrome_plain",
+    "glass": "bananacreate:block/blood_glass",
+    "cas": "bananacreate:block/chrome_casing",
+    "particle": "bananacreate:block/blood_extractor_side"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#shaft"
+        },
+        "south": {
+          "texture": "#shaft"
+        },
+        "east": {
+          "texture": "#shaft"
+        },
+        "west": {
+          "texture": "#shaft"
+        },
+        "up": {
+          "texture": "#shaft"
+        },
+        "down": {
+          "texture": "#shaft"
+        }
+      }
+    },
+    {
+      "from": [
+        3.5,
+        5.5,
+        3.5
+      ],
+      "to": [
+        12.5,
+        10.5,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#glass"
+        },
+        "south": {
+          "texture": "#glass"
+        },
+        "east": {
+          "texture": "#glass"
+        },
+        "west": {
+          "texture": "#glass"
+        },
+        "up": {
+          "texture": "#glass"
+        },
+        "down": {
+          "texture": "#glass"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "bananacreate:blood_extractor",
+    "bananacreate:blood_centrifuge",
+    "bananacreate:titan_treadmill",
+    "bananacreate:chrome_casing",
+    "bananacreate:servo_arm",
+    "bananacreate:chrome_cogwheel",
+    "bananacreate:chaos_dynamo",
+    "bananacreate:death_siphon",
+    "bananacreate:fear_seal",
+    "bananacreate:implant_table",
+    "bananacreate:implant_removal_table"
+  ]
+}

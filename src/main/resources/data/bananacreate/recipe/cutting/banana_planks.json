@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "bananacreate:banana_log"
+    }
+  ],
+  "processing_time": 50,
+  "results": [
+    {
+      "id": "bananacreate:banana_planks",
+      "count": 6
+    }
+  ]
+}

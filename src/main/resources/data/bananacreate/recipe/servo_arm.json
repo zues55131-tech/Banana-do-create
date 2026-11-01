@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PNP",
+    "S",
+    "CKC"
+  ],
+  "key": {
+    "P": {
+      "item": "bananacreate:chrome_plate"
+    },
+    "N": {
+      "item": "bananacreate:neural_chip"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "bananacreate:chrome_casing"
+    },
+    "K": {
+      "item": "bananacreate:banana_core"
+    }
+  },
+  "result": {
+    "id": "bananacreate:servo_arm",
+    "count": 1
+  }
+}

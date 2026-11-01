@@ -1,0 +1,110 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "bananacreate:golden_banana"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "bananacreate:cosmic_banana"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_cosmic_banana"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_cosmic_banana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_cosmic_banana"
+        },
+        {
+          "item": "bananacreate:death_essence"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_cosmic_banana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_cosmic_banana"
+        },
+        {
+          "item": "bananacreate:fear_essence"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_cosmic_banana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_cosmic_banana"
+        },
+        {
+          "item": "bananacreate:chaos_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_cosmic_banana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_cosmic_banana"
+        },
+        {
+          "item": "bananacreate:knowledge_essence"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_cosmic_banana"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_cosmic_banana"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_cosmic_banana"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "bananacreate:incomplete_cosmic_banana"
+  }
+}

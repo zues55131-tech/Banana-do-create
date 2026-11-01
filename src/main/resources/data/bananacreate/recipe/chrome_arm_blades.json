@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "PP",
+    "PNP",
+    "AA"
+  ],
+  "key": {
+    "P": {
+      "item": "bananacreate:chrome_plate"
+    },
+    "N": {
+      "item": "bananacreate:neural_chip"
+    },
+    "A": {
+      "item": "bananacreate:banana_alloy"
+    }
+  },
+  "result": {
+    "id": "bananacreate:chrome_arm_blades",
+    "count": 1
+  }
+}

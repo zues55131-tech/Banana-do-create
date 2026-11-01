@@ -1,0 +1,141 @@
+{
+  "textures": {
+    "side": "bananacreate:block/fear_seal_side",
+    "end": "bananacreate:block/fear_seal_end",
+    "shaft": "bananacreate:block/shaft_part",
+    "metal": "bananacreate:block/chrome_plain",
+    "glass": "bananacreate:block/blood_glass",
+    "cas": "bananacreate:block/chrome_casing",
+    "particle": "bananacreate:block/fear_seal_side"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#shaft"
+        },
+        "south": {
+          "texture": "#shaft"
+        },
+        "east": {
+          "texture": "#shaft"
+        },
+        "west": {
+          "texture": "#shaft"
+        },
+        "up": {
+          "texture": "#shaft"
+        },
+        "down": {
+          "texture": "#shaft"
+        }
+      }
+    },
+    {
+      "from": [
+        3.5,
+        5.5,
+        3.5
+      ],
+      "to": [
+        12.5,
+        10.5,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cas"
+        },
+        "south": {
+          "texture": "#cas"
+        },
+        "east": {
+          "texture": "#cas"
+        },
+        "west": {
+          "texture": "#cas"
+        },
+        "up": {
+          "texture": "#cas"
+        },
+        "down": {
+          "texture": "#cas"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        10.5,
+        1
+      ],
+      "to": [
+        9,
+        11.5,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal"
+        },
+        "south": {
+          "texture": "#metal"
+        },
+        "east": {
+          "texture": "#metal"
+        },
+        "west": {
+          "texture": "#metal"
+        },
+        "up": {
+          "texture": "#metal"
+        },
+        "down": {
+          "texture": "#metal"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        10.5,
+        7
+      ],
+      "to": [
+        15,
+        11.5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal"
+        },
+        "south": {
+          "texture": "#metal"
+        },
+        "east": {
+          "texture": "#metal"
+        },
+        "west": {
+          "texture": "#metal"
+        },
+        "up": {
+          "texture": "#metal"
+        },
+        "down": {
+          "texture": "#metal"
+        }
+      }
+    }
+  ]
+}

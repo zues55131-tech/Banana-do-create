@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "N",
+    "PVP",
+    "RG"
+  ],
+  "key": {
+    "N": {
+      "item": "bananacreate:neural_chip"
+    },
+    "P": {
+      "item": "bananacreate:chrome_plate"
+    },
+    "V": {
+      "item": "bananacreate:blood_vial"
+    },
+    "R": {
+      "item": "bananacreate:red_banana"
+    },
+    "G": {
+      "item": "bananacreate:golden_banana"
+    }
+  },
+  "result": {
+    "id": "bananacreate:overclock_injector",
+    "count": 1
+  }
+}

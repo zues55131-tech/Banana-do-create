@@ -1,0 +1,139 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "bananacreate:chrome_arm_blades"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "bananacreate:mantis_blades"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_mantis_blades"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_mantis_blades"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_mantis_blades"
+        },
+        {
+          "item": "create:brass_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_mantis_blades"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_mantis_blades"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_mantis_blades"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_mantis_blades"
+        },
+        {
+          "item": "bananacreate:fear_essence"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_mantis_blades"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_mantis_blades"
+        },
+        {
+          "item": "bananacreate:banana_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_mantis_blades"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_mantis_blades"
+        },
+        {
+          "item": "bananacreate:banana_cell"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_mantis_blades"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_mantis_blades"
+        },
+        {
+          "item": "bananacreate:cosmic_banana"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_mantis_blades"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_mantis_blades"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_mantis_blades"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "bananacreate:incomplete_mantis_blades"
+  }
+}

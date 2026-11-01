@@ -1,0 +1,11 @@
+{
+  "titan_transformation": {
+    "subtitle": "subtitles.bananacreate.titan_transformation",
+    "sounds": [
+      {
+        "name": "bananacreate:titan_transformation",
+        "stream": true
+      }
+    ]
+  }
+}

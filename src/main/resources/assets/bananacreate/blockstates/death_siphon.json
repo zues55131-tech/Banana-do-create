@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "bananacreate:block/death_siphon"
+    },
+    "axis=z": {
+      "model": "bananacreate:block/death_siphon",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "bananacreate:block/death_siphon",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

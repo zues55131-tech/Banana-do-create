@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ESE",
+    "SCS",
+    "BLB"
+  ],
+  "key": {
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "item": "bananacreate:chaos_shard"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "B": {
+      "item": "bananacreate:banana_cell"
+    },
+    "L": {
+      "item": "create:large_cogwheel"
+    }
+  },
+  "result": {
+    "id": "bananacreate:chaos_dynamo",
+    "count": 1
+  }
+}

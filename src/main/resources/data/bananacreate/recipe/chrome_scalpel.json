@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "P",
+    "C",
+    "H"
+  ],
+  "key": {
+    "P": {
+      "item": "bananacreate:chrome_plate"
+    },
+    "C": {
+      "item": "bananacreate:banana_cell"
+    },
+    "H": {
+      "item": "bananacreate:banana_handle"
+    }
+  },
+  "result": {
+    "id": "bananacreate:chrome_scalpel",
+    "count": 1
+  }
+}

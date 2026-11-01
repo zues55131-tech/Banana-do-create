@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "bananacreate:banana_log"
+    }
+  ],
+  "result": {
+    "id": "bananacreate:banana_planks",
+    "count": 4
+  }
+}

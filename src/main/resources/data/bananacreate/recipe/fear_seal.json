@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FSF",
+    "RCR",
+    "GBG"
+  ],
+  "key": {
+    "F": {
+      "item": "bananacreate:fear_essence"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "R": {
+      "item": "bananacreate:rotten_banana"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "G": {
+      "item": "create:brass_sheet"
+    },
+    "B": {
+      "item": "bananacreate:banana_cell"
+    }
+  },
+  "result": {
+    "id": "bananacreate:fear_seal",
+    "count": 1
+  }
+}

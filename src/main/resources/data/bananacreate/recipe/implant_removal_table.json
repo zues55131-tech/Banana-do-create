@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "BKB",
+    "IBI"
+  ],
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "bananacreate:chrome_scalpel"
+    },
+    "B": {
+      "item": "bananacreate:banana_cell"
+    },
+    "K": {
+      "item": "bananacreate:chrome_casing"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "bananacreate:implant_removal_table",
+    "count": 1
+  }
+}

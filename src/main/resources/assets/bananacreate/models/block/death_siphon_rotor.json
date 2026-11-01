@@ -1,0 +1,77 @@
+{
+  "textures": {
+    "side": "bananacreate:block/death_siphon_side",
+    "end": "bananacreate:block/death_siphon_end",
+    "shaft": "bananacreate:block/shaft_part",
+    "metal": "bananacreate:block/chrome_plain",
+    "glass": "bananacreate:block/blood_glass",
+    "cas": "bananacreate:block/chrome_casing",
+    "particle": "bananacreate:block/death_siphon_side"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#shaft"
+        },
+        "south": {
+          "texture": "#shaft"
+        },
+        "east": {
+          "texture": "#shaft"
+        },
+        "west": {
+          "texture": "#shaft"
+        },
+        "up": {
+          "texture": "#shaft"
+        },
+        "down": {
+          "texture": "#shaft"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        5.5,
+        3
+      ],
+      "to": [
+        13,
+        10.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cas"
+        },
+        "south": {
+          "texture": "#cas"
+        },
+        "east": {
+          "texture": "#cas"
+        },
+        "west": {
+          "texture": "#cas"
+        },
+        "up": {
+          "texture": "#cas"
+        },
+        "down": {
+          "texture": "#cas"
+        }
+      }
+    }
+  ]
+}

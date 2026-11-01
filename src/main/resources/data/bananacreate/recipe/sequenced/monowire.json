@@ -1,0 +1,139 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:string"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "bananacreate:monowire"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_monowire"
+        },
+        {
+          "item": "bananacreate:chrome_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_monowire"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_monowire"
+        },
+        {
+          "item": "bananacreate:neural_chip"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_monowire"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_monowire"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_monowire"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_monowire"
+        },
+        {
+          "item": "bananacreate:knowledge_essence"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_monowire"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_monowire"
+        },
+        {
+          "item": "bananacreate:banana_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_monowire"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_monowire"
+        },
+        {
+          "item": "bananacreate:banana_cell"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_monowire"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_monowire"
+        },
+        {
+          "item": "bananacreate:cosmic_banana"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_monowire"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_monowire"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_monowire"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "bananacreate:incomplete_monowire"
+  }
+}

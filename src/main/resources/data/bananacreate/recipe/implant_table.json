@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "BKB",
+    "IBI"
+  ],
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "bananacreate:banana_core"
+    },
+    "B": {
+      "item": "bananacreate:banana_cell"
+    },
+    "K": {
+      "item": "bananacreate:chrome_casing"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "bananacreate:implant_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "bananacreate:banana_alloy"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "bananacreate:banana_cell"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_banana_cell"
+        },
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_banana_cell"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_banana_cell"
+        },
+        {
+          "item": "bananacreate:banana_pulp"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_banana_cell"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_banana_cell"
+        },
+        {
+          "item": "bananacreate:green_banana"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_banana_cell"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_banana_cell"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_banana_cell"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "bananacreate:incomplete_banana_cell"
+  }
+}

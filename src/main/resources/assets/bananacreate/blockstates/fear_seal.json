@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "bananacreate:block/fear_seal"
+    },
+    "axis=z": {
+      "model": "bananacreate:block/fear_seal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "bananacreate:block/fear_seal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PEP",
+    "CMC",
+    "KB "
+  ],
+  "key": {
+    "P": {
+      "item": "bananacreate:chrome_plate"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "K": {
+      "item": "bananacreate:knowledge_essence"
+    },
+    "B": {
+      "item": "bananacreate:banana_cell"
+    }
+  },
+  "result": {
+    "id": "bananacreate:neural_chip",
+    "count": 1
+  }
+}

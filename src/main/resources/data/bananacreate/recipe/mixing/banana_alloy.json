@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "create:zinc_ingot"
+    },
+    {
+      "item": "bananacreate:banana_pulp"
+    },
+    {
+      "item": "bananacreate:banana_pulp"
+    },
+    {
+      "item": "bananacreate:green_banana"
+    }
+  ],
+  "results": [
+    {
+      "id": "bananacreate:banana_alloy",
+      "count": 2
+    }
+  ]
+}

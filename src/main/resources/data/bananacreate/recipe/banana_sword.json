@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AC",
+    "A ",
+    "H "
+  ],
+  "key": {
+    "A": {
+      "item": "bananacreate:banana_alloy"
+    },
+    "C": {
+      "item": "bananacreate:banana_cell"
+    },
+    "H": {
+      "item": "bananacreate:banana_handle"
+    }
+  },
+  "result": {
+    "id": "bananacreate:banana_sword",
+    "count": 1
+  }
+}

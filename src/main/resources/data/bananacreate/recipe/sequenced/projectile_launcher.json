@@ -1,0 +1,155 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "bananacreate:chrome_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "bananacreate:projectile_launcher"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_projectile_launcher"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_projectile_launcher"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_projectile_launcher"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_projectile_launcher"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_projectile_launcher"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_projectile_launcher"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_projectile_launcher"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_projectile_launcher"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_projectile_launcher"
+        },
+        {
+          "item": "bananacreate:chaos_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_projectile_launcher"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_projectile_launcher"
+        },
+        {
+          "item": "bananacreate:banana_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_projectile_launcher"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_projectile_launcher"
+        },
+        {
+          "item": "bananacreate:banana_cell"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_projectile_launcher"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_projectile_launcher"
+        },
+        {
+          "item": "bananacreate:cosmic_banana"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_projectile_launcher"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "bananacreate:incomplete_projectile_launcher"
+        }
+      ],
+      "results": [
+        {
+          "id": "bananacreate:incomplete_projectile_launcher"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "bananacreate:incomplete_projectile_launcher"
+  }
+}

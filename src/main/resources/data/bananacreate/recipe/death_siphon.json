@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DSD",
+    "ICI",
+    "RBR"
+  ],
+  "key": {
+    "D": {
+      "item": "bananacreate:death_essence"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "R": {
+      "item": "bananacreate:rotten_banana"
+    },
+    "B": {
+      "item": "bananacreate:banana_cell"
+    }
+  },
+  "result": {
+    "id": "bananacreate:death_siphon",
+    "count": 1
+  }
+}

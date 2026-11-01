@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LSL",
+    "BCB",
+    "IKI"
+  ],
+  "key": {
+    "L": {
+      "item": "create:large_cogwheel"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "B": {
+      "item": "bananacreate:banana_cell"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "K": {
+      "item": "bananacreate:banana_core"
+    }
+  },
+  "result": {
+    "id": "bananacreate:titan_treadmill",
+    "count": 1
+  }
+}
