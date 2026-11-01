@@ -1,0 +1,27 @@
+name: Testar servidor
+on:
+  workflow_dispatch:
+jobs:
+  server:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Iniciar servidor com o mod
+        run: |
+          chmod +x gradlew
+          mkdir -p run && echo "eula=true" > run/eula.txt
+          printf 'online-mode=false\nlevel-type=minecraft\:normal\n' > run/server.properties
+          ( sleep 110; echo "forceload add 0 0"; sleep 4; echo "summon bananacreate:mini_goblin 0 120 0"; sleep 4; echo 'summon minecraft:item 1 120 1 {Item:{id:"minecraft:bread",count:5}}'; sleep 30; echo "data get entity @e[type=bananacreate:mini_goblin,limit=1]"; sleep 4; echo "kill @e[type=bananacreate:mini_goblin]"; sleep 6; echo stop ) | timeout 480 ./gradlew runServer --no-daemon > server.log 2>&1 || true
+          echo "===== RESUMO ====="
+          grep -nE "Done \(|goblin|Summoned|Exception|Caused by|FATAL|ERROR\]|Crash" server.log | grep -viE "deprecat|DEBUG" | head -80
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: server-log
+          path: server.log
