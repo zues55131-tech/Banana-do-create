@@ -1,6 +1,7 @@
 package com.example.bananacreate.registry;
 
 import com.example.bananacreate.BananaCreate;
+import com.example.bananacreate.entity.BananaKing;
 import com.example.bananacreate.entity.BananaProjectile;
 import com.example.bananacreate.entity.CyberRocket;
 import com.example.bananacreate.entity.KasaneTeto;
@@ -36,6 +37,14 @@ public class ModEntities {
                     .sized(0.6f, 1.8f)
                     .clientTrackingRange(10)
                     .build("kasane_teto"));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<BananaKing>> BANANA_KING =
+            ENTITIES.register("banana_king", () -> EntityType.Builder
+                    .of(BananaKing::new, MobCategory.MONSTER)
+                    .sized(0.6f, 1.95f)
+                    .clientTrackingRange(16)
+                    .fireImmune()
+                    .build("banana_king"));
 
     public static final DeferredHolder<EntityType<?>, EntityType<CyberRocket>> CYBER_ROCKET =
             ENTITIES.register("cyber_rocket", () -> EntityType.Builder

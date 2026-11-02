@@ -82,6 +82,13 @@ public class ModCreativeTabs {
                         output.accept(ModItems.NEURAL_CHIP.get());
                         output.accept(ModItems.CHROME_ARM_BLADES.get());
                         output.accept(ModItems.OVERCLOCK_INJECTOR.get());
+                        // Rei Banana
+                        output.accept(ModItems.BANANA_RELIC.get());
+                        output.accept(ModItems.BANANA_KING_SPAWN_EGG.get());
+                        output.accept(ModItems.BANANA_LORD_HELMET.get());
+                        output.accept(ModItems.BANANA_LORD_CHESTPLATE.get());
+                        output.accept(ModItems.BANANA_LORD_LEGGINGS.get());
+                        output.accept(ModItems.BANANA_LORD_BOOTS.get());
                     })
                     .build());
 }

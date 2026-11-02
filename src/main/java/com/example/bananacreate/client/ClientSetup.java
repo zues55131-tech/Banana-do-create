@@ -30,6 +30,7 @@ public class ClientSetup {
         event.registerEntityRenderer(ModEntities.BANANA_PROJECTILE.get(), ThrownItemRenderer::new);
         event.registerEntityRenderer(ModEntities.CYBER_ROCKET.get(), ThrownItemRenderer::new);
         event.registerEntityRenderer(ModEntities.MINI_GOBLIN.get(), MiniGoblinRenderer::new);
+        event.registerEntityRenderer(ModEntities.BANANA_KING.get(), BananaKingRenderer::new);
         event.registerEntityRenderer(ModEntities.KASANE_TETO.get(), KasaneTetoRenderer::new);
     }
 

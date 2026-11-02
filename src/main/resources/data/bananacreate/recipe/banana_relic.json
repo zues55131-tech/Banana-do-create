@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GRG",
+    "RCR",
+    "GRG"
+  ],
+  "key": {
+    "G": {
+      "item": "bananacreate:golden_banana"
+    },
+    "R": {
+      "item": "bananacreate:red_banana"
+    },
+    "C": {
+      "item": "bananacreate:cosmic_banana"
+    }
+  },
+  "result": {
+    "id": "bananacreate:banana_relic",
+    "count": 1
+  }
+}

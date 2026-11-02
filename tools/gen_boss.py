@@ -38,8 +38,10 @@ for (x, y) in [(10, 13), (14, 13)]: t.putpixel((x, y), (*BLK, 255))
 for x in (11, 13): t.putpixel((x, 15), (*WHT, 255))           # dentes
 for (x, y) in [(10, 12), (14, 12)]: t.putpixel((x, y), (255, 150, 150, 255))   # bochechas
 # coroa de casca na camada externa (hat: x 32..64, y 0..16)
-fill(32, 0, 64, 8, (0, 0, 0, 0), 0)
-for x in range(40, 48):
+for yy in range(0, 16):
+    for xx in range(32, 64):
+        t.putpixel((xx, yy), (0, 0, 0, 0))    # camada externa da cabeca fica transparente
+for x in range(40, 48):  # coroa dourada (camada externa)
     for y in range(8, 10): t.putpixel((x, y), (*GOLD, 255))
 t.save(f"{A}/textures/entity/banana_king.png")
 

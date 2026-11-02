@@ -32,6 +32,7 @@ public class BananaCreate {
         ModItems.ITEMS.register(modBus);
         ModBlockEntities.BLOCK_ENTITIES.register(modBus);
         ModEntities.ENTITIES.register(modBus);
+        com.example.bananacreate.registry.ModArmor.MATERIALS.register(modBus);
         ModCreativeTabs.TABS.register(modBus);
         ModAttachments.ATTACHMENTS.register(modBus);
         ModMenus.MENUS.register(modBus);
@@ -44,6 +45,7 @@ public class BananaCreate {
 
     private static void registerAttributes(EntityAttributeCreationEvent event) {
         event.put(ModEntities.MINI_GOBLIN.get(), MiniGoblin.createAttributes().build());
+        event.put(ModEntities.BANANA_KING.get(), com.example.bananacreate.entity.BananaKing.createAttributes().build());
         event.put(ModEntities.KASANE_TETO.get(), KasaneTeto.createAttributes().build());
     }
 

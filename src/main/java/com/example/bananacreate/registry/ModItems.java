@@ -248,4 +248,24 @@ public class ModItems {
     public static final DeferredItem<BlockItem> CHAOS_DYNAMO = ITEMS.registerSimpleBlockItem("chaos_dynamo", ModBlocks.CHAOS_DYNAMO);
     public static final DeferredItem<BlockItem> DEATH_SIPHON = ITEMS.registerSimpleBlockItem("death_siphon", ModBlocks.DEATH_SIPHON);
     public static final DeferredItem<BlockItem> FEAR_SEAL = ITEMS.registerSimpleBlockItem("fear_seal", ModBlocks.FEAR_SEAL);
+
+    // --- Rei Banana (boss) ---
+    public static final DeferredItem<com.example.bananacreate.item.BananaRelicItem> BANANA_RELIC = ITEMS.register("banana_relic",
+            () -> new com.example.bananacreate.item.BananaRelicItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1)));
+
+    public static final DeferredItem<DeferredSpawnEggItem> BANANA_KING_SPAWN_EGG = ITEMS.register("banana_king_spawn_egg",
+            () -> new DeferredSpawnEggItem(ModEntities.BANANA_KING, 0xFADC3C, 0x78501E, new Item.Properties()));
+
+    public static final DeferredItem<net.minecraft.world.item.ArmorItem> BANANA_LORD_HELMET = ITEMS.register("banana_lord_helmet",
+            () -> new net.minecraft.world.item.ArmorItem(ModArmor.BANANA_LORD, net.minecraft.world.item.ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(net.minecraft.world.item.ArmorItem.Type.HELMET.getDurability(50)).rarity(Rarity.EPIC).fireResistant()));
+    public static final DeferredItem<net.minecraft.world.item.ArmorItem> BANANA_LORD_CHESTPLATE = ITEMS.register("banana_lord_chestplate",
+            () -> new net.minecraft.world.item.ArmorItem(ModArmor.BANANA_LORD, net.minecraft.world.item.ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(net.minecraft.world.item.ArmorItem.Type.CHESTPLATE.getDurability(50)).rarity(Rarity.EPIC).fireResistant()));
+    public static final DeferredItem<net.minecraft.world.item.ArmorItem> BANANA_LORD_LEGGINGS = ITEMS.register("banana_lord_leggings",
+            () -> new net.minecraft.world.item.ArmorItem(ModArmor.BANANA_LORD, net.minecraft.world.item.ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(net.minecraft.world.item.ArmorItem.Type.LEGGINGS.getDurability(50)).rarity(Rarity.EPIC).fireResistant()));
+    public static final DeferredItem<net.minecraft.world.item.ArmorItem> BANANA_LORD_BOOTS = ITEMS.register("banana_lord_boots",
+            () -> new net.minecraft.world.item.ArmorItem(ModArmor.BANANA_LORD, net.minecraft.world.item.ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(net.minecraft.world.item.ArmorItem.Type.BOOTS.getDurability(50)).rarity(Rarity.EPIC).fireResistant()));
 }
