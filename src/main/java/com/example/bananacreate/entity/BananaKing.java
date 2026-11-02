@@ -190,7 +190,7 @@ public class BananaKing extends Monster {
                     p.push(Math.cos(ang) * 1.4, 0.9, Math.sin(ang) * 1.4);
                     p.hurtMarked = true;
                     p.hurt(damageSources().mobAttack(this), 4.0f);
-                    p.addEffect(new MobEffectInstance(MobEffects.SLOWNESS, 60, 1));
+                    p.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 60, 1));
                 }
                 for (int i = 0; i < 5; i++) {
                     ItemEntity peel = new ItemEntity(level(), getX() + random.nextGaussian() * 3, getY() + 1,
@@ -201,8 +201,8 @@ public class BananaKing extends Monster {
             }
             case 2 -> { // festa da danca: tontura geral e o boss se cura
                 for (Player p : playersNear(18.0)) {
-                    p.addEffect(new MobEffectInstance(MobEffects.NAUSEA, 140));
-                    p.addEffect(new MobEffectInstance(MobEffects.SLOWNESS, 80, 0));
+                    p.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 140));
+                    p.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 80, 0));
                 }
                 heal(enraged ? 25.0f : 15.0f);
                 server.sendParticles(ParticleTypes.NOTE, getX(), getY() + getBbHeight() * 0.6, getZ(),
